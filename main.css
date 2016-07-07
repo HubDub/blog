@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: purple;
+}
 img {
   max-width: 400px;
 }
@@ -9,6 +17,31 @@ img {
   border-color: red;*/
   /*padding: 1px 3px 5px 4px;*/
   /*padding like this goes top right bottom left*/
-  padding: 3px 4px; /*top&bottom left&right*/
+  padding: 10px 10px; /*top&bottom left&right*/
   /*padding: 5px 4px 3px; /* top left&right bottom 8/*/
+  background-color: tan;
+  margin: 10px;
+}
+
+#article1 section {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: blue
+}
+
+a:hover {
+  text-decoration: none;
+  color: firebrick;
+  /*sets for anything the mouse hovers over*/
+}
+
+a:active {
+  color: yellow;
+}
+
+a:visited {
+  color: black;
 }
