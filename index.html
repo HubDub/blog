@@ -4,6 +4,7 @@
   <title>My Wicked Rad Blog</title>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
   <header>
     <ul>
@@ -12,6 +13,60 @@
       <li>Links</li>
     </ul>
   </header>
+
+  <form action="">
+  <fieldset>
+    <label class="hidden" for="firstname">First Name</label>
+    <input type="text" required name="firstname" placeholder="First Name" id="firstname">
+    
+    <label class="hidden" for="email">email</label>
+    <input type="email" required name="email" id="email" placeholder="foo@bar.com">
+    
+    <label class="hidden" for="age">AGE</label>
+    <input type="number" required name="age" min="18" max="120" placeholder="65" id="age">
+  </fieldset>
+
+  <label class="hidden" for="bio">bio</label>
+  <textarea name="bio" placeholder="A little about yourself" id="bio"></textarea>
+
+  <label class="hidden" for="favcolor">favorite color</label>
+  <input type="color" value="#E0329F" name="favcolor" id="favcolor">
+
+  <label class="hidden" for="website">website</label>
+  <input class="min_input" type="url" required placeholder="http://nothing.com" name="website" id="website">
+  
+  <input type="text" name="country" value="USA" readonly>
+
+  <fieldset>
+    <label for="peanuts">peanuts</label>
+    <input type="checkbox" value="peanuts" checked id="peanuts" name="peanuts">
+    
+    <label for="shellfish">shellfish</label>
+    <input type="checkbox" value="shellfish" id="shellfish" name="shellfish">
+    
+    <label for="soy">soy</label>
+    <input type="checkbox" value="soy" id="soy" name="soy">
+    
+    <label for="kiwis">kiwis</label>
+    <input type="checkbox" value="kiwis" id="kiwis" name="kiwis">
+  </fieldset>
+
+  <fieldset>
+    <label for="red">Red</label>
+    <input type="radio" checked value="red" name="rgb" id="red">
+    
+    <label for="green">Green</label>
+    <input type="radio" value="green" name="rgb" id="green">
+    
+    <label for="Blue">Blue</label>
+    <input type="radio" value="blue" name="rgb" id="blue">
+  </fieldset>
+
+  <input type="submit" value="Push This" name="submit">
+  <!-- <button disabled type="submit" value="Submit" name="submit"> -->
+
+  </form>
+
   <article id="article1">
     <h3>Article 1 Begins: Zombies</h3>
     <!-- this section is about zombies  -->

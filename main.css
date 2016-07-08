@@ -6,6 +6,15 @@ body {
   font-family: sans-serif;
   color: purple;
 }
+
+.hidden {
+  display: none;
+}
+
+.min_input {
+  min-width: 500px;
+}
+
 img {
   max-width: 400px;
 }
